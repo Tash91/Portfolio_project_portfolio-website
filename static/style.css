@@ -25,5 +25,7 @@ h2 {
   flex-wrap: wrap;
 }
 
-
-
+#submit{
+  background-color: rgb(146, 99, 203);
+  color: aqua;
+}
