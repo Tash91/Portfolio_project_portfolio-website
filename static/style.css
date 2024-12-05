@@ -12,6 +12,12 @@ h2 {
 
 }
 
+h3 {
+
+  color: #F8F8FF ;
+
+}
+
 #butterfly {
   height: 500px;
   width: 600px;
@@ -28,4 +34,37 @@ h2 {
 #submit{
   background-color: rgb(146, 99, 203);
   color: aqua;
+}
+
+
+.about_me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+
+.about_me1{
+  flex: 200px;
+
+}
+
+.about_me2{
+  flex: 200px;
+
+}
+
+#work_pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+ 
+}
+
+#play_pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }

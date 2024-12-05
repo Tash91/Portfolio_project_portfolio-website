@@ -4,9 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>{% block title %}About me{% endblock%}/title>
 </head>
 <body>
+    {% block content %}
+    <div class="about_me">
+    <h1>About me</h1>
+    <div class="about_me1">
+        <h3>All work</h3>
+        <img id="work_pic" src="static\images\gery-wibowo-Eti6ph51H4A-unsplash.jpg">
+        <h4>Skills</h4>
+        <ul>
+        <li>HTML</li> 
+        <li>CSS</li>
+        <li>Python Language</li>
+        <li>Basic flask</li>
+        <li>SQL Alchemy</li>
+        <li>Microsoft packages</li>
+        <li>Redcap</li>
+
+        </ul>
+
+    </div>
+
+    <div class="about_me2">
+        <h3>And play</h3>
+        <img id=play_pic src="static\images\jim-gade-tACjDuvTWSI-unsplash.jpg">
+        <h4>Hobbies and interests</h4>
+        <ul>
+        <li>Escape rooms</li> 
+        <li>Brain training games</li>
+        <li>Film (Especially horror)</li>
+        <li>Reading (Mystery, crime and Horror)</li>
+        <li>Learning craft skills</li>
+        <li>Listening to music</li>
+        <li>Long walks</li>
+
+
+    </div>
+    </div>
+
+
+    {% endblock %}
     
 </body>
 </html>
