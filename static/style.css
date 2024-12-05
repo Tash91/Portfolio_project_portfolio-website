@@ -6,10 +6,12 @@ body {
     color: #F8F8FF ;
 
 }
-.butterfly {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 
+img {
+  height: 500px;
+  width: 600px;
+}
+
+.home_div {
+  flex-direction: column;
 }
