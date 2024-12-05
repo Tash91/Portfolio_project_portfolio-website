@@ -18,6 +18,16 @@ h3 {
 
 }
 
+h4 {
+   color: #F8F8FF ;
+
+}
+
+li {
+  color: #F8F8FF ;
+
+}
+
 #butterfly {
   height: 500px;
   width: 600px;
@@ -37,24 +47,31 @@ h3 {
 }
 
 
+#about_title {
+  margin-left: 550px;
+
+}
+
+
 .about_me{
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
   flex-wrap: wrap;
 
+  align-items: center;
+  justify-content: center;
+
 
 }
 
-.about_me1{
-  flex: 200px;
+.about_cont{
+   flex: 200px;
+   margin-left: 100px;
+ 
+
 
 }
 
-.about_me2{
-  flex: 200px;
-
-}
 
 #work_pic {
   height: 200px;
