@@ -1,8 +1,15 @@
 body {
-  background-image: linear-gradient(to right, #9370DB, #87CEFA);
+  background-image: linear-gradient(to right, #9370DB, #87CEFA) !important;
 }
 
-h1 {
-    color: #F8F8FF;
+.writing_colour {
+    color: #F8F8FF ;
+
+}
+.butterfly {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
 }
