@@ -2,16 +2,28 @@ body {
   background-image: linear-gradient(to right, #9370DB, #87CEFA) !important;
 }
 
-.writing_colour {
+h1 {
     color: #F8F8FF ;
 
 }
 
-img {
+h2 {
+  color: #F8F8FF ;
+
+}
+
+#butterfly {
   height: 500px;
   width: 600px;
+  border-radius: 50%;
 }
 
 .home_div {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+
+
